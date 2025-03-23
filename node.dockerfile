@@ -5,6 +5,7 @@ RUN yarn install
 FROM uselagoon/node-14:latest
 COPY --from=builder /app/node_modules /app/node_modules
 COPY . /app/
+RUN mkdir -p /app/storage
 
 EXPOSE 3000
 
