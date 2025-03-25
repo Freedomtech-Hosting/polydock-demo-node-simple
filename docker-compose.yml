@@ -10,7 +10,6 @@ services:
     command: yarn run dev
     labels:
       lagoon.type: node
-      lagoon.persistent: /app/storage/ 
     volumes:
       - ./src:/app/src:delegated
     environment:
