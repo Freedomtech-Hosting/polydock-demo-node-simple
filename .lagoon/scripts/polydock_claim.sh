@@ -1,3 +1,3 @@
-#!/bin/sh
-
-echo "$LAGOON_ROUTE"
+#!/bin/sh                                                                                                                                                                                                      
+                                                                                                                                                                                                               
+echo "${LAGOON_ROUTE:-http://amazee.io}"

@@ -1,3 +1,0 @@
-#!/bin/sh                                                                                                                                                                                                      
-                                                                                                                                                                                                               
-echo "${LAGOON_ROUTE:-http://amazee.io}"
